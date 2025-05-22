@@ -1,0 +1,31 @@
+/* assets/css/main.css 
+ * WARNING: this shit is default, change pls I'm begging you i already KNOW ai is retarded wid ts
+ * */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add any global custom retro styles here that aren't easily done with Tailwind classes */
+body {
+    /* Example: Tiled background image */
+    background-image: url('/images/tile_pattern.gif'); /* Make sure this path is correct from /static */
+    background-repeat: repeat;
+    cursor: default; /* Old school cursor */
+}
+
+/* Example: Styling scrollbars for a retro look (browser support varies) */
+::-webkit-scrollbar {
+    width: 12px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border: 1px solid #c0c0c0;
+}
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border: 1px solid #555;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
